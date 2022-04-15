@@ -10,6 +10,7 @@ const App = () => {
     const handleChange = (e) => {
         const { maxLength, value, name } = e.target;
         const [fieldName, fieldIndex] = name.split("-");
+          // eslint-disable-next-line no-unused-vars
        
     
         let fieldIntIndex = parseInt(fieldIndex, 16);
@@ -51,7 +52,7 @@ const App = () => {
     <>
         <div>
             <h2>Card Number *: </h2>
-            <InputFild name="field-1" length="4" 
+            <input name="field-1" length="4" 
                     handleChange={handleChange} />
             <InputFild name="field-2" length="4"
                     handleChange={handleChange} />
