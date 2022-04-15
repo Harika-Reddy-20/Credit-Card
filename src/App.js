@@ -9,8 +9,9 @@ const App = () => {
     
     const handleChange = (e) => {
         const { maxLength, value, name } = e.target;
+         // eslint-disable-next-line no-unused-vars
         const [fieldName, fieldIndex] = name.split("-");
-          // eslint-disable-next-line no-unused-vars
+         
        
     
         let fieldIntIndex = parseInt(fieldIndex, 16);
