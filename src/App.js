@@ -52,7 +52,7 @@ const App = () => {
     <>
         <div>
             <h2>Card Number *: </h2>
-            <input name="field-1" length="4" 
+            <InputFild name="field-1" length="4" 
                     handleChange={handleChange} />
             <InputFild name="field-2" length="4"
                     handleChange={handleChange} />
